@@ -19,14 +19,14 @@ def display_off():
 def clear_display():
     print("Display cleared")
     
-def text_to_display(text)
+def text_to_display(text):
     print(text)
     
-def i2c_send_output(addr,out)
+def i2c_send_output(addr,out):
     print(out + " sent to " + addr)
     
-def i2c_read_input(addr)
+def i2c_read_input(addr):
     print("reading from " + addr)
     
-def buzz(dur)
+def buzz(dur):
     print("Buzzer buzzing for " + dur + seconds)
